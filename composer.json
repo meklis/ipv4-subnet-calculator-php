@@ -1,5 +1,5 @@
 {
-  "name": "markrogoyski/ipv4-subnet-calculator",
+  "name": "meklis/ipv4-subnet-calculator",
   "type": "library",
   "description": "Network calculator for subnet mask and other classless (CIDR) network information.",
   "keywords": ["ipv4", "subnet", "calculator", "network", "cidr", "address", "ip"],
