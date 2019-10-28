@@ -701,7 +701,7 @@ class SubnetCalculator implements \JsonSerializable
         if (!filter_var($ip_address, FILTER_VALIDATE_IP)) {
             throw new \UnexpectedValueException("IP address $ip_address not valid.");
         }
-        if (($network_size < 1) || ($network_size > 32)) {
+        if (($network_size < 0) || ($network_size > 32)) {
             throw new \UnexpectedValueException("Network size $network_size not valid.");
         }
     }
